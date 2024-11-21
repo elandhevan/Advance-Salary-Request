@@ -1,0 +1,71 @@
+/* Container for the login page */
+.loginPage {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow */
+    backdrop-filter: blur(8.5px); /* Glass effect */
+    -webkit-backdrop-filter: blur(8.5px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Soft border */
+    width: 100%;
+    max-width: 400px; /* Set maximum width */
+    margin: auto;
+    margin-top: 100px;
+    color: black; /* Text color */
+    justify-content: center;
+  }
+  
+  /* Typography (Login heading) */
+  .Typography-h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  
+  /* Input field styling */
+  .TextField-root {
+    background: rgba(255, 255, 255, 0.15); /* Transparent input background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields on focus */
+  .InputBase-root.Mui-focused {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Button styling */
+  .Button-root {
+    background-color: #2b3cac; /* Default button color */
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 100%; /* Full width button */
+  }
+  
+  /* Button hover effect */
+  .Button-root:hover {
+    background-color: #2575fc; /* Lighter blue on hover */
+  }
+  
+  /* Button active state */
+  .Button-root:active {
+    transform: scale(0.98); /* Slight scale down on click */
+  }
+  
+  /* Error alert styling */
+  .Alert-root {
+    background-color: rgba(255, 0, 0, 0.1); /* Light red background */
+    color: #ff0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

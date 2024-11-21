@@ -1,0 +1,119 @@
+/* Global styling for the Admin Dashboard page */
+.adminDashboardContainer {
+    padding: 20px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+  }
+  
+  /* Typography for headings */
+  .adminDashboardTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .adminDashboardSubtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* User and request cards */
+  .userCard, .requestCard {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .userCardTitle, .requestCardTitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  /* Buttons for roles and requests */
+  .buttonGroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .buttonPrimary {
+    background-color: #1976d2;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #155fa0;
+  }
+  
+  .buttonSecondary {
+    background-color: #d32f2f;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonSecondary:hover {
+    background-color: #a82828;
+  }
+  
+  .buttonError {
+    background-color: #f44336;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonError:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Modal styles */
+  .modalDialog {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .modalTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .modalInput {
+    margin-bottom: 20px;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  /* Alerts */
+  .alertSuccess {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .alertError {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
